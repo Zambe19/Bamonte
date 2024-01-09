@@ -1,0 +1,806 @@
+Name: Depuratore_DB1
+Id: g=bf5b8532b0c9674ddf9fb9bf08e0658e
+Type: FolderType
+Children:
+- Name: DEP_START_SCARICO
+  Id: g=20dc6353c39a419c55c4c2d1cbeffc0f
+  Type: S7TCPTag
+  DataType: Boolean
+  DisplayName: {"LocaleId":"it-IT","Text":"Display name"}
+  Description: {"LocaleId":"it-IT","Text":"Test decrizione"}
+  Value: false
+  Children:
+  - Name: BlockNumber
+    Id: g=bfbf7039d6a200a2e7c2a0199c8b0f3e
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: MemoryArea
+    Id: g=ce9d08290f11c4c7c2cad0f4791081f9
+    Type: BaseDataVariableType
+    DataType: MemoryArea
+    Value: 0
+  - Name: Encoding
+    Id: g=83d6e1b126bf18ac6ef18a8bf0e874f5
+    Type: BaseDataVariableType
+    DataType: Encoding
+    Value: 0
+  - Name: MaximumLength
+    Id: g=4ba8bbd1d68d0d9c6770b55686a60783
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 254
+  - Name: CounterNumber
+    Id: g=469c507c10974bd331915e4fae470890
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: TimerNumber
+    Id: g=885327bc9b741e8c36af36d5f55c4e61
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: Position
+    Id: g=698cd7f7430a0fc506870b175f53dd7c
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: Bit
+    Id: g=7909bc796ab4faa374e21e61000b30f5
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: StartArrayIndex
+    Id: g=4b180528ffa4a803112e43e01e474fc8
+    Type: BaseDataVariableType
+    DataType: UInt32
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: []
+- Name: DEP_PAUSA_SCARICO
+  Id: g=3f7399bc3c224fce30a2f2e53c8c738a
+  Type: S7TCPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: BlockNumber
+    Id: g=932850d8073bfad057411826fcee250e
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: Bit
+    Id: g=81a06941470137c4908bbc88730ba5e3
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: MemoryArea
+    Id: g=5b59520659c8762f4e237e9c709eea75
+    Type: BaseDataVariableType
+    DataType: MemoryArea
+    Value: 0
+  - Name: Encoding
+    Id: g=e14a4b8f720fe7b4458ba1b63f796f26
+    Type: BaseDataVariableType
+    DataType: Encoding
+    Value: 0
+  - Name: MaximumLength
+    Id: g=cad28977bd00440b37bb82c7de94a2f2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 254
+  - Name: CounterNumber
+    Id: g=21e4cd08fda6a0502d4a3f575d055f3c
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: TimerNumber
+    Id: g=cf390bd76adc3b8317459f0109c1e73e
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: Position
+    Id: g=212169026994d02bc221ef4a6e7055e6
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: StartArrayIndex
+    Id: g=0d2c53f50b3822f819ced9d26814bc38
+    Type: BaseDataVariableType
+    DataType: UInt32
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: []
+- Name: DEP_STOP_SCARICO
+  Id: g=128b713752a51ad519cc6c839c6a53cf
+  Type: S7TCPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: BlockNumber
+    Id: g=4aa5dad1b5e51df2a4ebe85cc4bdabe2
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: Bit
+    Id: g=c8ba43820f493e544bfc579b04c5adf6
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 2
+  - Name: MemoryArea
+    Id: g=33589acdea0b764bd0b05a543e66a178
+    Type: BaseDataVariableType
+    DataType: MemoryArea
+    Value: 0
+  - Name: Encoding
+    Id: g=4acf93cd539c1269f76adbcd3f8028ba
+    Type: BaseDataVariableType
+    DataType: Encoding
+    Value: 0
+  - Name: MaximumLength
+    Id: g=7fb7787c6bf9e9cc919618a04004e0f2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 254
+  - Name: CounterNumber
+    Id: g=ba852c96c30aa682f0230a0b6352cca7
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: TimerNumber
+    Id: g=193f921624b4c14146d5d728cd16927f
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: Position
+    Id: g=b663043c906980827feb8c6224fc4885
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: StartArrayIndex
+    Id: g=19217460000470c4ac164ab5a621083c
+    Type: BaseDataVariableType
+    DataType: UInt32
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: []
+- Name: DEP_ABI_CICLO
+  Id: g=66d1d155e17269240431d7841ecb13cc
+  Type: S7TCPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: BlockNumber
+    Id: g=24383cb344784dabad48b2d044d4679d
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: Bit
+    Id: g=9ed2e51ec0234ca8a8ae26a0b2311e3e
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 3
+  - Name: MemoryArea
+    Id: g=7548c6e3389a7651fd668c771404663f
+    Type: BaseDataVariableType
+    DataType: MemoryArea
+    Value: 0
+  - Name: Encoding
+    Id: g=c69b269a09fee547a86f32cf01f5afe7
+    Type: BaseDataVariableType
+    DataType: Encoding
+    Value: 0
+  - Name: MaximumLength
+    Id: g=e339eaa68845242c108289844e7b7425
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 254
+  - Name: CounterNumber
+    Id: g=82d16d91bf9a44fcd74469b690008c1a
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: TimerNumber
+    Id: g=e75521ae60a880c37dd50567d1c1829c
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: Position
+    Id: g=27e34d8a5d7e96ed98bdae1f0151ad84
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: StartArrayIndex
+    Id: g=9434bd9f238c5a261d6f26f1f9a69550
+    Type: BaseDataVariableType
+    DataType: UInt32
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: []
+- Name: DEP_ABI_SCATOT_TK002D
+  Id: g=ae8628cd750d309b607b911e07d1904f
+  Type: S7TCPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: MemoryArea
+    Id: g=fb0dae02fc23a1b2ad8c7c0cc9a7fae7
+    Type: BaseDataVariableType
+    DataType: MemoryArea
+    Value: 0
+  - Name: Encoding
+    Id: g=428c83f84da3df31b1df87e87cf0765b
+    Type: BaseDataVariableType
+    DataType: Encoding
+    Value: 0
+  - Name: MaximumLength
+    Id: g=16a9619e065e5a8deadbc2e49659b905
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 254
+  - Name: BlockNumber
+    Id: g=6178210db0e2a91745c962885467ab59
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: CounterNumber
+    Id: g=fa709efd24603f0664d34930e2f00d47
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: TimerNumber
+    Id: g=f1864fe41afc53455222b321e074603c
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: Position
+    Id: g=2de179148e74ec4c6c4338d6dd3bfc1c
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: Bit
+    Id: g=52eb0db59e787dc62e421d3d295f8ba6
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 4
+  - Name: StartArrayIndex
+    Id: g=5848e0084df7ffbe490eccb7208a0981
+    Type: BaseDataVariableType
+    DataType: UInt32
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: []
+- Name: DEP_ABI_SCATOT_TK003D
+  Id: g=fa4e09d9585824cf00ab57e13a160ac5
+  Type: S7TCPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: MemoryArea
+    Id: g=156d081e8c5c58a43067689f190c4eb4
+    Type: BaseDataVariableType
+    DataType: MemoryArea
+    Value: 0
+  - Name: Encoding
+    Id: g=c78e440de448476ea522a170193ab828
+    Type: BaseDataVariableType
+    DataType: Encoding
+    Value: 0
+  - Name: MaximumLength
+    Id: g=1bb5c95b067c065f37cb2a4038ec467a
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 254
+  - Name: BlockNumber
+    Id: g=b3fb4c855eed1ac4b6498fc7caf5a97f
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: CounterNumber
+    Id: g=ea6f86b4b1d5057c696173031e40491b
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: TimerNumber
+    Id: g=1d7a55ea6bfca493b1bd6b83a4d39fa1
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: Position
+    Id: g=baaff5efd55219250dfb8624e4f70ad4
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: Bit
+    Id: g=9ae3aa248439d65054a07998a05c7ae0
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 5
+  - Name: StartArrayIndex
+    Id: g=0cc4b7aeef4739a9e221a56a8aef2623
+    Type: BaseDataVariableType
+    DataType: UInt32
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: []
+- Name: DEP_ABI_SCATOT_TK004D
+  Id: g=9cd6f7bb90650f20cca816f71e10d2b2
+  Type: S7TCPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: MemoryArea
+    Id: g=de1019ee49e6b66fe2e561ae976a566c
+    Type: BaseDataVariableType
+    DataType: MemoryArea
+    Value: 0
+  - Name: Encoding
+    Id: g=73660be2453f952947bd6df99f7cea96
+    Type: BaseDataVariableType
+    DataType: Encoding
+    Value: 0
+  - Name: MaximumLength
+    Id: g=25587da0bc42f7534cadb370734e9dcf
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 254
+  - Name: BlockNumber
+    Id: g=52f1274102f741b2de2e6909f6803f05
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: CounterNumber
+    Id: g=0f9162ad43552e1793c4da179b9956d2
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: TimerNumber
+    Id: g=6235130904f686b667c606ff7ca8137c
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: Position
+    Id: g=61f1cc14343d3229566793dcbcb9b3db
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: Bit
+    Id: g=b88c1a4a543500180d47545644a96b91
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 6
+  - Name: StartArrayIndex
+    Id: g=75e17dd86e69a27247374ec6e5ae1942
+    Type: BaseDataVariableType
+    DataType: UInt32
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: []
+- Name: DEP_ST_SCA
+  Id: g=42cf84743e1303a158c7064081ce92ee
+  Type: S7TCPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: MemoryArea
+    Id: g=5ffca9e35bb1e90fd33a8a2360c1a52f
+    Type: BaseDataVariableType
+    DataType: MemoryArea
+    Value: 0
+  - Name: Encoding
+    Id: g=cf8d06338350032b6800ee0927a13165
+    Type: BaseDataVariableType
+    DataType: Encoding
+    Value: 0
+  - Name: MaximumLength
+    Id: g=0a102ca0f5c20fcb39fd763682e43243
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 254
+  - Name: BlockNumber
+    Id: g=2332de586f79e4e564cc4771324a7e90
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: CounterNumber
+    Id: g=f320b7d7ffd64e298da42d837fa5907a
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: TimerNumber
+    Id: g=73626641d1e2b38f54a6186b83bcc477
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: Position
+    Id: g=3922494737a7ccd4f7ce5c5fb63a650b
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: Bit
+    Id: g=2391c3492341b9bb51dc601f0109c7cf
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: StartArrayIndex
+    Id: g=ca74f7e1c8dc455d631ff05bd758f9ee
+    Type: BaseDataVariableType
+    DataType: UInt32
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: []
+- Name: DEP_ST_ALL
+  Id: g=cf0620155611c0e0382011fbe0198d82
+  Type: S7TCPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: MemoryArea
+    Id: g=db9ed01ce67ab130a88ebe82ba339696
+    Type: BaseDataVariableType
+    DataType: MemoryArea
+    Value: 0
+  - Name: Encoding
+    Id: g=22b346431c1bea25fd007b22da9d3997
+    Type: BaseDataVariableType
+    DataType: Encoding
+    Value: 0
+  - Name: MaximumLength
+    Id: g=320f3d0876c8288cba39dd65a5eb19fa
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 254
+  - Name: BlockNumber
+    Id: g=4857a302abfe5dc107aa0c4b442073c9
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: CounterNumber
+    Id: g=83a33b06d1ad95a758433642c5535fd0
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: TimerNumber
+    Id: g=ea20f75bee750fc5171f1ed5456396e9
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: Position
+    Id: g=5919a2e9545730967a7351662a154217
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: Bit
+    Id: g=e2675138b16afce73e98730c5c64affd
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 2
+  - Name: StartArrayIndex
+    Id: g=a9d66db8a74b660cfe7259ac7e9df170
+    Type: BaseDataVariableType
+    DataType: UInt32
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: []
+- Name: DEP_ST_PAUSA_SCA
+  Id: g=5a12920e888d971ac9290a1b7cdf603b
+  Type: S7TCPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: MemoryArea
+    Id: g=ecd8341c4f6f350d30cca5e8e1eebc3c
+    Type: BaseDataVariableType
+    DataType: MemoryArea
+    Value: 0
+  - Name: Encoding
+    Id: g=b931da41e809385c198f0823ec6ab8d7
+    Type: BaseDataVariableType
+    DataType: Encoding
+    Value: 0
+  - Name: MaximumLength
+    Id: g=7b8363330f6d4ac425ce4cd759c51152
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 254
+  - Name: BlockNumber
+    Id: g=2811e7394cd1ccd6151ca4607f06384b
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: CounterNumber
+    Id: g=cc26d25630401cb7a61c733fad745525
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: TimerNumber
+    Id: g=0f1f22eab97f6e1ac4d97edb6fee7b1b
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: Position
+    Id: g=66385f7bc098ed7a2916fac5f994c205
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: Bit
+    Id: g=0d5cdc35b315f6ef0a9547591ae52a63
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 7
+  - Name: StartArrayIndex
+    Id: g=28a75ae130bed938407f8d3f5388e7c1
+    Type: BaseDataVariableType
+    DataType: UInt32
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: []
+- Name: DEP_MEM_GESTIONE_SERB
+  Id: g=9a7b303b1c7b042fe932c08c753f2b04
+  Type: S7TCPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: MemoryArea
+    Id: g=f9cbe592d4e670d9e9fd4ef2cb548e22
+    Type: BaseDataVariableType
+    DataType: MemoryArea
+    Value: 0
+  - Name: Encoding
+    Id: g=a38ff1ee8a84b54da029553290872f93
+    Type: BaseDataVariableType
+    DataType: Encoding
+    Value: 0
+  - Name: MaximumLength
+    Id: g=74fdeea5a3a02309b0d88c4571096c7d
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 254
+  - Name: BlockNumber
+    Id: g=cfba5507632d53380df53f3d8b1e8452
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: CounterNumber
+    Id: g=41584fc1df8250b6acdd68cb4a3238b6
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: TimerNumber
+    Id: g=884dc2318b43fd832e1bed3ceddc5458
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: Position
+    Id: g=e0796da91547d31ed71a74635d32b7c7
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 2
+  - Name: Bit
+    Id: g=02a17744d1ca8ef86bed10d903b064bd
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: StartArrayIndex
+    Id: g=1b8eee7817a9c863de287043a2210bb7
+    Type: BaseDataVariableType
+    DataType: UInt32
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: []
+- Name: DEP_RITARTO_SPEGNIMETO_FLOTTATORE
+  Id: g=345587003d6b5125860d1734f91ac64c
+  Type: S7TCPTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=348280bbf821cfb4ea34c8dc52268c8c
+    Type: BaseDataVariableType
+    DataType: MemoryArea
+    Value: 0
+  - Name: Encoding
+    Id: g=16b986f783364c3b46d3261f56a75025
+    Type: BaseDataVariableType
+    DataType: Encoding
+    Value: 0
+  - Name: MaximumLength
+    Id: g=8a4f8d8239b0c78174349f39993c7586
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 254
+  - Name: BlockNumber
+    Id: g=a221ee5c183287e620478bd41d0b6b8b
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: CounterNumber
+    Id: g=fd6ac4e77476ac12102d99b4d0dd36b9
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: TimerNumber
+    Id: g=b9271e85065465e263834894a3cdeca1
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: Position
+    Id: g=8ae1e446ba16f4b7bae155c0e852e55d
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 10
+  - Name: Bit
+    Id: g=a8695a12c5353ee99946862ecd04d412
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: ArrayUpdateMode
+    Id: g=43b49a6f91e8df8ec8920c51657240b8
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+    Value: 0
+  - Name: StartArrayIndex
+    Id: g=1d0599a7d87c7483000f35c7901f5d6f
+    Type: BaseDataVariableType
+    DataType: UInt32
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: []
+- Name: DEP_ORA_AVVIO_TRASF_TK002D_TK003D_A_TK004D
+  Id: g=09da9b7bb09c7429a29a6c22d5283592
+  Type: S7TCPTag
+  DataType: Byte
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=45810107ae446d70d492756c1f08be2b
+    Type: BaseDataVariableType
+    DataType: MemoryArea
+    Value: 0
+  - Name: Encoding
+    Id: g=990c45b7d28f373765fb9c156e65752a
+    Type: BaseDataVariableType
+    DataType: Encoding
+    Value: 0
+  - Name: MaximumLength
+    Id: g=15c5f0b0d20287dcd579f4006279b66e
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 254
+  - Name: BlockNumber
+    Id: g=3e59ad2e35bdd857b53d945badeca0f1
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: CounterNumber
+    Id: g=8c0b48a005a6b433da8d158442307799
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: TimerNumber
+    Id: g=22bf6e68c7754eac809e1ffa1ece54e1
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: Position
+    Id: g=600a38cc936602e16c16dbbeb819d3ba
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 20
+  - Name: Bit
+    Id: g=6bff13381f89ced61e6b90639edaf30f
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: StartArrayIndex
+    Id: g=a9d797b8fdd6d3bec31794cee74b9e6d
+    Type: BaseDataVariableType
+    DataType: UInt32
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: []
+- Name: DEP_MIN_AVVIO_TRASF_TK002D_TK003D_A_TK004D
+  Id: g=dde8544641da3160efdd56d745930548
+  Type: S7TCPTag
+  DataType: Byte
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=5807b782835d97ff062d40d602c50e75
+    Type: BaseDataVariableType
+    DataType: MemoryArea
+    Value: 0
+  - Name: Encoding
+    Id: g=e0a3b6eb584c012b2cee54924851deeb
+    Type: BaseDataVariableType
+    DataType: Encoding
+    Value: 0
+  - Name: MaximumLength
+    Id: g=f92865fa7d8588979d08ff27ae8022a3
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 254
+  - Name: BlockNumber
+    Id: g=4434e41a6ff72ee17b27f3c23836ec58
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: CounterNumber
+    Id: g=f53b869bce6df3a8b87b151e12e75132
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: TimerNumber
+    Id: g=ab336fb0969c644d9d3fd5aea32faaa7
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: Position
+    Id: g=64986dccbed23642a2dc73bb6aae6aa8
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 21
+  - Name: Bit
+    Id: g=b974e1dc592926c0820a807df49a65f6
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: StartArrayIndex
+    Id: g=5c973abef539b9b153f8eccfb19ef5c9
+    Type: BaseDataVariableType
+    DataType: UInt32
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: []
+- Name: DEP_TEMPO_LAVORO_ARIA_COMPRESSA_TK001D
+  Id: g=922942bce7b2aa8fea62eff6bc042d3a
+  Type: S7TCPTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Id: g=b3ffa5e17f2a54ac48681f5e4ee0cd65
+    Type: BaseDataVariableType
+    DataType: MemoryArea
+    Value: 0
+  - Name: Encoding
+    Id: g=064565482501f8d4f97f5a0ede08fed7
+    Type: BaseDataVariableType
+    DataType: Encoding
+    Value: 0
+  - Name: MaximumLength
+    Id: g=b108268709505da2968f925a4892ffa5
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 254
+  - Name: BlockNumber
+    Id: g=6671f817a802e176b52a1df1c9d8a8cb
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1
+  - Name: CounterNumber
+    Id: g=39b3d6e2be2e690264a8814393cb4b47
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: TimerNumber
+    Id: g=94d1c26f7515a0a8d7993ad238a8ebed
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: Position
+    Id: g=a882ffa781f85235cc15e40b0bbcf4d6
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 30
+  - Name: Bit
+    Id: g=f1944ac1756f62fb4dfd6dc1dff8fe52
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 0
+  - Name: StartArrayIndex
+    Id: g=69fdeb1212ae050ee2c2bdc6f3c8d082
+    Type: BaseDataVariableType
+    DataType: UInt32
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: []

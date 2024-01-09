@@ -1,0 +1,46 @@
+Name: DriverS7TCP
+Id: g=ed5e8341db2a4cb8d545fe5f6e62e1c3
+Type: S7TCPDriver
+Children:
+- Name: LocalDeviceId
+  Id: g=49ddee4e8705d6437cdc3d93446fc698
+  Type: BaseDataVariableType
+  DataType: Byte
+  Value: 1
+- Name: LocalRack
+  Id: g=42eb0762537824e96aeb541f1c66aad4
+  Type: BaseDataVariableType
+  DataType: Byte
+  Value: 0
+- Name: LocalSlot
+  Id: g=b8b911abc3667da087d872155fd35313
+  Type: BaseDataVariableType
+  DataType: Byte
+  Value: 0
+- File: S7_1500/S7_1500.yaml
+- Name: ImportExportTags
+  Id: g=a68f23d4c3bf85bf92ba8c599269bd3b
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=ff2b00213b7e84cb739355dee5afa46c
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: ExportToCsv
+    Id: g=931f298ebd9abf984c0153824f906307
+  - Name: StartingNodeToFetch
+    Id: g=cd87e29d3cd0904745dbc413718b6f28
+    Type: BaseDataVariableType
+    DataType: NodeId
+    Value: "/Objects/Bamonte/CommDrivers/DriverS7TCP/S7_1500/Tags"
+  - Class: Method
+    Name: ImportOrUpdateFromCsv
+    Id: g=1a280d0fe753a036769dc4feeb7996fc
+  - Name: MakeFolderInsteadStruct
+    Id: g=997abe4625ad1f01eb04a9a53cf2c2a4
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true

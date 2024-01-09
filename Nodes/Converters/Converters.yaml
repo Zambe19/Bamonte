@@ -1,0 +1,65 @@
+Name: Converters
+Id: g=54ad29e56a78898adc303c764e009c55
+Type: ConvertersCategoryFolder
+Children:
+- Name: NumeroStringa
+  Id: g=9aa194b36c0d27fc84069080cc29a53f
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Id: g=9c60445213e44f7635717363c747212a
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Id: g=3667bc555d6e4675bda4f7efc0cf216a
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=0e9a14e6de09450a177e06b6d8ed43e0
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 0
+      - Name: Value
+        Id: g=073a9572ae233c0535b607803c1e7d5f
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "zero"
+    - Name: Pair1
+      Id: g=0a527e73cedf117a769b2536bc90e87c
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=433b3d745cd20486aa4440be38269a64
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 1
+      - Name: Value
+        Id: g=43ed8815bcaa4828268613cee1a03b86
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "uno"
+    - Name: Pair2
+      Id: g=577be5e289c0c0c9033c69b7f3dc4660
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Id: g=4c4a99b88c50889416bfdb8b6fbc04c5
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 2
+      - Name: Value
+        Id: g=3da9d5551903300599e5147ffd101412
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: None
+        Value: "due"

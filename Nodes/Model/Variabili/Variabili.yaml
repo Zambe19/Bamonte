@@ -1,0 +1,19 @@
+Name: Variabili
+Id: g=71203c0cd4bcb8a8c9cf14db58daedaa
+Type: FolderType
+Children:
+- Name: Variabile2
+  Id: g=fc3f941ae10a7bee08a68cd936c88486
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variabile1
+  Id: g=6935f314ee77a64bbe5873b8f1cd6a03
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: pippo
+  Id: g=5c67fbd31e4178ace171ac499470fd48
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

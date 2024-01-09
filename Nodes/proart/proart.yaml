@@ -1,0 +1,408 @@
+Name: proart
+Id: g=73cb4f8103107f5c7a8c3a2161e62d70
+Type: FolderType
+Children:
+- Name: DatabaseInterno
+  Id: g=56f73092ff87ea67c29cb63421f097f3
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Id: g=c35312ca3eb6d4e5d83b0a780522d869
+    Type: BaseObjectType
+    Children:
+    - Name: LoggerVariabili
+      Id: g=1d54d09b5a9fc82c3238fdbead6df640
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=edabfeb341a2133901a74797cc95e72a
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Id: g=f038bc55009ec9111c3d3267117cc047
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: LocalTimestamp
+          Id: g=26ad784673994f5a51172954d7af8ac9
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Variabile2
+          Id: g=26b2a3e679e80efa06b07496b19e670c
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: Variabile1
+          Id: g=6cbfc13d8e5496585c21a67d7b8eda34
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+        - Name: DEP_RITARTO_SPEGNIMETO_FLOTTATORE
+          Id: g=f79b54f5a21d591aeb2eee26c0e4a101
+          Type: StoreColumn
+          DataType: Int16
+          Value: 0
+    - Name: LoggerDeiDati1
+      Id: g=4693774d1a2de6e59d730ede2740492d
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=c66c7fdf6a68cfaffedba7c1cfe5ec09
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Id: g=42690e252373ae3da6a61009cefe397f
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: LocalTimestamp
+          Id: g=032974519b279c51d551de393e730ce9
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: pippo
+          Id: g=954b4e9e9bc542dea0c394b7174461b7
+          Type: StoreColumn
+          DataType: Int32
+          Value: 0
+    - Name: LoggerDegliEventiDiAllarme1
+      Id: g=04b4512997f71e0a33a60fc26455791e
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=13;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=13;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=8f42475485446e6166338ff21f13aab9
+        Type: BaseObjectType
+        Children:
+        - Name: ActiveState_Id
+          Id: g=aad2c2f4ee25825f9013c8390892dc87
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: AckedState_Id
+          Id: g=8767ab9f12ec179cd11acb234a9f5500
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: ConfirmedState_Id
+          Id: g=3254835a1bee39ecb524e8fea68ea422
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: ConditionName
+          Id: g=9e543be74a409eea8fd432ce9f06f6b3
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: EnabledState_Id
+          Id: g=89d06e97e24da8172f6bca5315e3aaca
+          Type: StoreColumn
+          DataType: Boolean
+          Value: false
+        - Name: SourceName
+          Id: g=8378ffce2ce8e5c5723f6cc3f81c1eb6
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Time
+          Id: g=53c2b02308a8182b287794e93e2078e0
+          Type: StoreColumn
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: 'Message_it-IT'
+          Id: g=6d910ab100bf5b63da56443e917c4db9
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: 'Message_en-US'
+          Id: g=6abf918b95c6613978623a57733cd0de
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+        - Name: Severity
+          Id: g=fe6155b49647ee8aa7036d608ea2aa4b
+          Type: StoreColumn
+          DataType: UInt16
+          Value: 0
+        - Name: LocalTime
+          Id: g=b7c8fb211c6f99e578163b186f612b19
+          Type: StoreColumn
+          DataType: DateTime
+          Value: "1601-01-01T00:00:00.0000000"
+  - Class: Reference
+    Target: ns=29;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Id: g=79f5c5965fd5cafacc225b0b34191780
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Id: g=c77cc30b57bba6208ef22276c50ee0be
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Id: g=2fb061cd471bae081093f799492b941e
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Id: g=5dcfe19e0761c6cb0b01ad0b71a6cfaa
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=13;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=59
+    Direction: Forward
+  - Name: Filename
+    Id: g=ab425a901e1f17dc667a10a139d0e682
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "DatabaseInterno"
+- Name: V0001
+  Id: g=3bf210bcb471530b315c3fcf1e1dfa04
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=a99e82f7019edf428e8a62b617feb60b
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=b9dd117daaefea30639b6f5e460c9b41
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: LastEvent
+    Id: g=581f8e9ee7f0ec4b9e2d2b11d41596b8
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+- Name: Oggetto1
+  Id: g=44706fdd1d12f3abce4766da2275ec9f
+  Type: BaseObjectType
+  Children:
+  - Name: Variabile1
+    Id: g=028781f5eecf4a108ed31428cc44a294
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Variabile2
+    Id: g=a65f2e8f076c02732de7f5777ca63c7e
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Variabile3
+    Id: g=51f15a769b967c942467b9bd41638bad
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: VALVOLAv1
+  Id: g=3908b56685a12b66def21e81b025dc96
+  Supertype: Rectangle
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Id: g=085e2e19f592542e591c000260aacf38
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 272.0
+  - Name: Height
+    Id: g=2c4a91e8d43632847a7752a72da069dd
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 260.0
+  - Name: BorderThickness
+    Id: g=59c58f29e74ab74c4fb329b92e86263d
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1.0
+  - Name: Interruttore1
+    Id: g=1fbe37f7e5e97674a54e3351ddbb502e
+    Type: Switch
+    Children:
+    - Name: Checked
+      Id: g=c574b05eeeaeb5734cd8e8125b69ec87
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Width
+      Id: g=bd4dc1520568bd0e3e5c4c58e79aa1a1
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: LeftMargin
+      Id: g=93ed21d7e6224aeced5bbaa158a2d3c2
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 81.0
+    - Name: TopMargin
+      Id: g=69e172331e2ddae204f69cb99910722b
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 46.0
+  - Name: IndicatoreCircolare1
+    Id: g=24b70c289b1f47da7c9d3f4582f95684
+    Type: CircularGauge
+    Children:
+    - Name: Value
+      Id: g=5214aa373d68905a3d1f68c1d64eef21
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: MinValue
+      Id: g=9201869526fdd8f2b3b631172ca03ef2
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 0.0
+    - Name: MaxValue
+      Id: g=355894ff9cb0bcd5ec90a7eb27907991
+      Type: BaseDataVariableType
+      DataType: Float
+      Value: 100.0
+    - Name: WarningZones
+      Id: g=289cb2b95d5c2b82f1e98ca66f04a4b9
+      Type: BaseObjectType
+    - Name: Width
+      Id: g=50aa0837109faeb3c6de5202e0b6e5f2
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 155.0
+    - Name: Height
+      Id: g=3765beac9f4737429cbbc5bb6436dd0f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 127.0
+    - Name: LeftMargin
+      Id: g=2ed22fd5ca166f5dd57adf4f36695176
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 27.0
+    - Name: TopMargin
+      Id: g=d3bc3eb840919844e3945394f9d3f5ca
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 103.0
+  - Name: CasellaDiSelezione1
+    Id: g=7eb613d0973152ff92adab217cb047ed
+    Type: SpinBox
+    Children:
+    - Name: Value
+      Id: g=15753e2750fbc33fced8a756b00bda24
+      Type: BaseDataVariableType
+      DataType: Double
+      Value: 0.0
+    - Name: Width
+      Id: g=6afe0719824cfd37c96a16f9ac035ecb
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
+    - Name: LeftMargin
+      Id: g=cb776fd9893df7ab6face1401e066329
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 184.0
+    - Name: TopMargin
+      Id: g=b974c084391c16a6455111140de4a9f7
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 14.0

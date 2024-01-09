@@ -1,0 +1,112 @@
+Name: Retentivity
+Id: g=4379028d17a9d2c257ef718dfbcce850
+Type: RetentivityCategoryFolder
+Children:
+- Name: SecurityRetentivityStorage
+  Id: g=2c11307b4315200a2fb144348aac10a4
+  Type: RetentivityStorage
+  Children:
+  - Name: Nodes
+    Id: g=9c5b5634fdabd83019775c4275ee8da4
+    Type: BaseObjectType
+    Children:
+    - Name: Node1
+      Id: g=1a1aa5312372912af17c886a63340624
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/Bamonte/Security"
+      Children:
+      - Name: Kind
+        Id: g=0578198a56109e14dbf1f0cf8824c77c
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: NodeClass
+        Id: g=4555020d9518ab035f9be5038bfc7a84
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
+  - Name: WriteDelay
+    Id: g=48af926180444ad3d4ef427013fb623b
+    Type: BaseDataVariableType
+    DataType: Duration
+    ReferenceType: HasProperty
+    Value: "0:00:00:0.0000000"
+  - Name: DeltaObserverEnabled
+    Id: g=1fdfe682294cc134aaed2a4e47951be9
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+    Value: true
+- Name: AlarmsRetentivityStorage
+  Id: g=276b01399cabe9837b298be37e02c7a2
+  Type: RetentivityStorage
+  Children:
+  - Name: Nodes
+    Id: g=40aa9f195b16e71e9b43535f9f86ee4a
+    Type: BaseObjectType
+    Children:
+    - Name: Node1
+      Id: g=5d7e05ebc4f35f50fb5858b7a418b08c
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/Bamonte/Alarms"
+      Children:
+      - Name: Kind
+        Id: g=bd98c31101e0fb9b9d0363fc9d52db87
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: NodeClass
+        Id: g=4e7c56dae28b867b62133c7193485b48
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
+  - Name: WriteDelay
+    Id: g=9fe13c25ada9158387c3c0da10c9d2c6
+    Type: BaseDataVariableType
+    DataType: Duration
+    ReferenceType: HasProperty
+    Value: "0:00:00:0.0000000"
+  - Name: DeltaObserverEnabled
+    Id: g=e3653dfc0a54576413c910db1b36aa93
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+    Value: true
+- Name: Variabili
+  Id: g=ac4ac93e5e227bd19d91a4e8de1690cd
+  Type: RetentivityStorage
+  Children:
+  - Name: Nodes
+    Id: g=6b672928537881c5d735544cc7b6d6b8
+    Type: BaseObjectType
+    Children:
+    - Name: Nodo1
+      Id: g=a6c9aa9b77e49f96f88eddc036280de2
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/Bamonte/Model"
+      Children:
+      - Name: Kind
+        Id: g=d57c5889ba052aec5d2435b03b950e5e
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: NodeClass
+        Id: g=c4c389a047852b5386f24ea10eef9304
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        Value: 2
+  - Name: WriteDelay
+    Id: g=be84697e19b8d1fe5ea44e0f7b0c6b2c
+    Type: BaseDataVariableType
+    DataType: Duration
+    ReferenceType: HasProperty
+    Value: "0:00:00:0.0000000"
+  - Name: DeltaObserverEnabled
+    Id: g=74c2f40a52bc24cec66851b59812cc5d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+    Value: true

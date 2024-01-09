@@ -1,0 +1,81 @@
+Name: Bamonte
+Id: g=e0f5f13d5a79cca6dc0463f67c241d41
+Type: ProjectFolder
+Children:
+- Name: Localization
+  Id: g=242dd94db4b56fb654c42a9eca3be024
+  Type: PropertyGroup
+  Children:
+  - Name: Locales
+    Id: g=17a6567b355c9bc8845e6ed5e5d25351
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["it-IT","en-US"]
+  - Name: LocaleFallbackList
+    Id: g=4bcfbc52f724f69588f54adbef0ba5b9
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+- Name: Authentication
+  Id: g=e3ba2019d9d7fc8cfb85f34567f03373
+  Type: PropertyGroup
+  Children:
+  - Name: DefaultUserFolder
+    Id: g=b77a633fc1c4331bb2778a570d4e42be
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Bamonte/Security/Users"
+    Children:
+    - Name: Kind
+      Id: g=679c472cc2a8883e9e5978abb99f6a8a
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+- Name: PasswordPolicy
+  Id: g=5c3816114f7101e7a20183b9bc5ca5ed
+  Type: PasswordPolicy
+  Children:
+  - Name: MaximumPasswordAge
+    Id: g=a2aedf630b17567c274e091067385862
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 0
+  - Name: EnforcePasswordHistory
+    Id: g=5318736bcc8dd675a2c9bca61375d2be
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 1
+  - Name: MinimumPasswordAge
+    Id: g=93af4752521c99846130e8fe8eee2c17
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 0
+  - Name: MinimumPasswordLength
+    Id: g=77f46531bdd6895814b500c84be60f12
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 8
+- Name: AlarmConfiguration
+  Id: g=b8a6deee0f2e81caed8c467ae3e26ef7
+  Type: PropertyGroup
+- File: UI/UI.yaml
+- File: Model/Model.yaml
+- File: Converters/Converters.yaml
+- File: Alarms/Alarms.yaml
+- File: Recipes/Recipes.yaml
+- File: Loggers/Loggers.yaml
+- File: DataStores/DataStores.yaml
+- File: Reports/Reports.yaml
+- File: 'OPC-UA/OPC-UA.yaml'
+- File: CommDrivers/CommDrivers.yaml
+- File: NetLogic/NetLogic.yaml
+- File: Security/Security.yaml
+- File: System/System.yaml
+- File: Translations/Translations.yaml
+- File: Retentivity/Retentivity.yaml
+- File: AlarmTypes/AlarmTypes.yaml
+- File: proart/proart.yaml

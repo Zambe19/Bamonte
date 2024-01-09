@@ -1,0 +1,9 @@
+Name: QUERY
+Id: g=820604af84617bae2b2071600ae7b332
+Type: FolderType
+Children:
+- Name: Variabile1
+  Id: g=f0163a11ea653204183b4e25e9b0c54c
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

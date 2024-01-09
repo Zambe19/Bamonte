@@ -1,0 +1,216 @@
+Name: S7_1500
+Id: g=ea7a6212ab23a90fa20bffde4d91599e
+Type: S7TCPStation
+Children:
+- Name: MaximumJobSizeInBytes
+  Id: g=da0a8addee588dd7a050f048f2eea821
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 243
+- Name: MaximumGapInBytes
+  Id: g=3fc7496d5e9594832fb608ee7fd09c97
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 4
+- Name: IPAddress
+  Id: g=52691e59231f8b5cd89a12ed038233cd
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "192.168.5.200"
+- Name: Port
+  Id: g=67d3079ac0f06984066b132c30766cc3
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 102
+- Name: Timeout
+  Id: g=b95a72bff67078dadf7e23b09c202065
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:00:5.0000000"
+- Name: RemoteDeviceId
+  Id: g=b1f8d86b860b24ac394e635fc59c4fb2
+  Type: BaseDataVariableType
+  DataType: Byte
+  Value: 2
+- Name: RemoteRack
+  Id: g=76f875eaeb7c7704064c5f153273875d
+  Type: BaseDataVariableType
+  DataType: Byte
+  Value: 0
+- Name: RemoteSlot
+  Id: g=6b7dfa96488b67453ac7193a05d2ef8f
+  Type: BaseDataVariableType
+  DataType: Byte
+  Value: 2
+- Name: OperationCode
+  Id: g=36ecc76e48ca8a18aa2267a9d672686e
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+  Value: 0
+- Class: Reference
+  Target: ns=19;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=19;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=19;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=19;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=19;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=19;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Id: g=6651938672140ee8c39529940eb85526
+  Type: FolderType
+  Children:
+  - File: DataTypes/DataTypes.yaml
+  - File: VariableTypes/VariableTypes.yaml
+  - Name: StrutturaValvolaF
+    Id: g=990cfec257f3d2c04bf54682f26ec62f
+    Supertype: TagStructure
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DB
+      Id: g=44f573266b8cd0c99ebedbdbdde9ef60
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: INDIRIZZO
+      Id: g=38e63adb6d63b10bd6c2ced018bef0c3
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: BIT
+      Id: g=c8adc877e9effe98f50a0535823a939b
+      Type: BaseDataVariableType
+      DataType: Byte
+      Value: 0
+    - Name: VIS
+      Id: g=0cc7f20d4b5275003a6663d8e9947336
+      Type: S7TCPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: BlockNumber
+        Id: g=11e3f82e485c7f5cafbacbad4de47cf1
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: Optional
+        Value: 101
+      - Name: Position
+        Id: g=5d23427f64ef1f7a46e784d353daaec9
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: Optional
+        Value: 0
+      - Name: Bit
+        Id: g=5412d0329dbf95bfcc193c9be1e5d87c
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: Optional
+        Value: 0
+    - Name: MSK
+      Id: g=bb6306b91cd6a35d0391a83b7421e686
+      Type: S7TCPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: BlockNumber
+        Id: g=9c5bf8219601b66a38acc7b77b26aeab
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: Optional
+        Value: 102
+      - Name: Position
+        Id: g=a8109fcdfe902d32ca23e5ee443cb06b
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: Optional
+        Value: 0
+      - Name: Bit
+        Id: g=90c65b7aa4ffbddd6ebfb779368969c0
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: Optional
+        Value: 0
+    - Name: ASS
+      Id: g=630cec63924c711241797459c852f907
+      Type: S7TCPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: BlockNumber
+        Id: g=f87ef4e3c79760f7d26dfa2f2323290e
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: Optional
+        Value: 103
+      - Name: Position
+        Id: g=471be26ab464071e3069a471f7fe222c
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: Optional
+        Value: 0
+      - Name: Bit
+        Id: g=44338cd88e42792cf7c4a24be7426616
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: Optional
+        Value: 0
+    - Name: MAN
+      Id: g=023a787a1e36b55b72af1ad15fe87016
+      Type: S7TCPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: BlockNumber
+        Id: g=2f8f8d52a8cd03d4f736c63b810b7642
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: Optional
+        Value: 104
+      - Name: Position
+        Id: g=df506e8494e046d6cc64535a9ad97bc5
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: Optional
+        Value: 0
+      - Name: Bit
+        Id: g=a7ac870f3b18adf24d0e29ecc7561d09
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: Optional
+        Value: 0
+    - Name: ALL
+      Id: g=bd0638f28b4e972ad256e86580f660c5
+      Type: S7TCPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: BlockNumber
+        Id: g=da056088d1719d5624ba82985398782e
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: Optional
+        Value: 105
+      - Name: Position
+        Id: g=32a79371bd7ffb304a0099bd397de4e1
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: Optional
+        Value: 0
+      - Name: Bit
+        Id: g=9dd2e7b9114a7d3b72bc958b9adba0ae
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: Optional
+        Value: 0

@@ -1,0 +1,62 @@
+Name: Translations
+Id: g=408b9fc77ffe5f10d4ddedf34d896a5f
+Type: TranslationsCategoryFolder
+Children:
+- Name: LocalizationDictionary1
+  Id: g=90231a50875150f1155d26c71d610503
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [3,3],
+    "Body": [
+     "","en-US","it-IT",
+     "Failed","Failed","Non riuscito",
+     "Success","Success","Successo"
+    ]
+   }
+- Name: ImportAndExportTranslations
+  Id: g=00d1e368c7020abb36c5905f2795af97
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=fb73f1273177dad3d0d965ee0725e886
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: CSVPath
+    Id: g=a105ab8e3abe8ced2663784e20b03465
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: ""
+  - Class: Method
+    Name: ExportTranslations
+    Id: g=0ee96849e985ff8e117f982ef14ea71d
+  - Class: Method
+    Name: ImportTranslations
+    Id: g=6d323647adba9c08699cfed7d8481726
+  - Name: CharacterSeparator
+    Id: g=21d6154a25c930184c3d68c89f0f5ed5
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ","
+  - Name: WrapFields
+    Id: g=2ef2e8c793498ad184a756cdae3d46db
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: LocalizationDictionary
+    Id: g=1efc1f5296a17f1b43b78908abd2b158
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Id: g=cc554fd6586cc105943c4c448cfa83fb
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/VariableTypes/BaseVariableType/LocalizationDictionary"

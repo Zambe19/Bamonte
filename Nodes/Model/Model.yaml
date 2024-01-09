@@ -1,0 +1,60 @@
+Name: Model
+Id: g=56e20f03b4fccb7a7bb99b2db7636638
+Type: ModelCategoryFolder
+Children:
+- File: Variabili/Variabili.yaml
+- Name: Variabile2
+  Id: g=d2586a323d518a5d42b9a4b0d72e76f6
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variabile3
+  Id: g=40aa707c71a6d5d55cbc3784dd88e9b9
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Corrente
+  Id: g=aee00fe2c5d533402e88ce8eb33b59bc
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: ns=0;EngineeringUnits
+    Id: g=476d68f74f944514f6cdcb6bb34ad268
+    Type: EUInformationType
+    DataType: EUInformation
+    Children:
+    - Name: UnitId
+      Id: g=ad2346f45c8e782f117dee75aa05aa3d
+      Type: BaseVariableType
+      DataType: Int32
+      ReferenceType: HasProperty
+      Value: 4346965
+    - Name: DisplayName
+      Id: g=a4c81f6e1cb36286411a0777ad68fbde
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Description
+      Id: g=6cd9497d2c187e7a891184d5308f02ee
+      Type: BaseVariableType
+      DataType: LocalizedText
+      ReferenceType: HasProperty
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: PosizioneX
+  Id: g=d68eaeca77355bc243264f7950070408
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: PosizioneY
+  Id: g=8119de10f4ec757feb66b28cff3db92d
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- File: QUERY/QUERY.yaml
+- Name: Variabile1
+  Id: g=5f0b8430a5d32a2bec6cc403867a2450
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
