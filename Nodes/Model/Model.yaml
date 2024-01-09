@@ -58,3 +58,8 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+- Name: Pluto
+  Id: g=0aa1708d5b6e32587243ff5d04ca56c1
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
