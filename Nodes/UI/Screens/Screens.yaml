@@ -6,6 +6,34 @@ Children:
   Id: g=ee95f5e694ee6adfd64aecad6b8e0fff
   Supertype: Screen
   ReferenceType: HasComponent
+  Children:
+  - Name: CasellaDiControllo1
+    Id: g=3f005982a3045d3adaceeb48330faefa
+    Type: CheckBox
+    Children:
+    - Name: Checked
+      Id: g=68fc51bcc36095a611589230d7015120
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Text
+      Id: g=8e5a8a11b9d48e3c10742428f3bd58b1
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"it-IT","Text":"CasellaDiControllo1"}
+    - Name: LeftMargin
+      Id: g=b5b7555ef7fdad6b02b11f00a06e13a1
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 257.0
+    - Name: TopMargin
+      Id: g=9c2e0abf288313c718a426a3981c2599
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 150.0
 - Name: Pagina1
   Id: g=16039d5e777de63a833f7b9f8d8e9d17
   Supertype: Screen
@@ -1512,6 +1540,28 @@ Children:
           Type: PropertyType
           DataType: UInt16
           Value: 0
+  - Name: Etichetta2
+    Id: g=5d96d1edeee4409f45cb1b941b2186f7
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=b3c200af65a32d661fc5024f6c79f15b
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"it-IT","Text":"Etichetta2"}
+    - Name: LeftMargin
+      Id: g=c093e87eafdde57171e86703bf48178c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 688.0
+    - Name: TopMargin
+      Id: g=f87cc4af768c3c6a51d9a159cab82424
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 231.0
 - Name: Pagina2
   Id: g=0402d7295caaf6b98a6e1450c13faafe
   Supertype: Screen
