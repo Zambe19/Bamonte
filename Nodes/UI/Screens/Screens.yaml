@@ -1863,6 +1863,18 @@ Children:
           Type: PropertyType
           DataType: UInt16
           Value: 0
+    - Name: Height
+      Id: g=606d5e1785a731a3470999ab981cafa1
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 152.0
+    - Name: Width
+      Id: g=cb99e79298a84723f8be379e69da43b0
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 226.0
   - Name: VALVOLAv1C
     Id: g=c21b5aaa8c12631836ebdc767a56c525
     Type: VALVOLAv1
