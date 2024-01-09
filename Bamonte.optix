@@ -146,10 +146,10 @@ Project:
    Module: FTOptix.S7TCP.Net
    Version: 1.0
  Statistics:
-  TotalNodeCount: 1304
+  TotalNodeCount: 1307
   Objects: 257
   ObjectTypes: 7
-  Variables: 1035
+  Variables: 1038
   VariableTypes: 1
   DataTypes: 0
   Methods: 4

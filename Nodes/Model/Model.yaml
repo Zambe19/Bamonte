@@ -63,3 +63,8 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 0
+- Name: pippo
+  Id: g=ce0ab94907e3bfe85a9fcdf9c58257a9
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
